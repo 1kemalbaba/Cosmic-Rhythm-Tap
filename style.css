@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: radial-gradient(circle, #1a0033, #000);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+  }
+  
+  #game {
+    text-align: center;
+    padding: 10px;
+    max-width: 100%;
+  }
+  
+  h1 {
+    color: #ff00ff;
+    text-shadow: 0 0 15px #ff00ff;
+    font-size: clamp(1.5rem, 5vw, 2.5rem);
+  }
+  
+  p {
+    color: #00ffcc;
+    text-shadow: 0 0 10px #00ffcc;
+    font-size: clamp(1rem, 3vw, 1.5rem);
+    margin: 5px 0;
+  }
+  
+  #leaderboard {
+    margin: 10px 0;
+    color: #fff;
+  }
+  
+  h2 {
+    font-size: clamp(1rem, 3vw, 1.2rem);
+    color: #00ccff;
+  }
+  
+  #top-scores {
+    list-style: none;
+    font-size: clamp(0.8rem, 2.5vw, 1rem);
+  }
+  
+  #canvas {
+    border: 2px solid #00ccff;
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 25px rgba(0, 204, 255, 0.5);
+    width: 100%;
+    max-width: 800px;
+    height: 60vh;
+    touch-action: none;
+  }
+  
+  #menu {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  #menu button {
+    display: block;
+    margin: 20px auto;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    background: #00ccff;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  #menu button:hover {
+    background: #ff00ff;
+    transform: scale(1.1);
+  }
